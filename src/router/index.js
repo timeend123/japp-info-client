@@ -7,7 +7,8 @@ Vue.use(Router)
 Vue.use(VueMaterial)
 
 export default new Router({
-  history:true,
+  hashbang: false,
+  history: true,
   routes: [
     {
       path: '/',
